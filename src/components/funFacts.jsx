@@ -32,15 +32,18 @@ const FunFacts = () => {
   };
 
   return (
-    <section className="max-w-4xl mx-auto px-4 py-10">
-      <h2 className="text-3xl font-bold text-center mb-8 flex justify-center items-center gap-2">
-        <FaLaughBeam className="text-yellow-500" /> Fun Facts
+    <section className="max-w-4xl mx-auto px-4 py-10 bg-[#e3dcdc]">
+      <h2 className="text-3xl font-bold text-left mb-3 flex justify-start text-[#6b4c2d] items-center gap-2">
+        Little Facts, Big Personality
       </h2>
+      <p className="border-l-2 p-3 mb-3.5  text-sm  font-Montserrat leading-[1.1]">
+        Fun Facts About Me
+      </p>
       <div className="space-y-4">
         {funFacts.map((fact, index) => (
           <div
             key={index}
-            className="border border-gray-300 rounded-xl p-4 bg-white"
+            className="border border-[#6b4c2d]/20 rounded-xl p-4 bg-white/30"
           >
             <button
               onClick={() => toggleFact(index)}
@@ -49,9 +52,9 @@ const FunFacts = () => {
               <span>{fact.fact}</span>
               <span>
                 {openIndex === index ? (
-                  <FaChevronUp className="text-gray-600" />
+                  <FaChevronUp className="text-[#6b4c2d]" />
                 ) : (
-                  <FaChevronDown className="text-gray-600" />
+                  <FaChevronDown className="text-[#6b4c2d]" />
                 )}
               </span>
             </button>
