@@ -35,7 +35,7 @@ function Footer() {
       <ul className="w-1/2 flex flex-col items-start">
         <li className="my-[10px] cursor-pointer">IQBALLAZ</li>
         <li className="my-[10px] cursor-pointer">LATEST</li>
-        <li className="my-[10px] cursor-pointer whitespace-nowrap">CURRENT CAUSE SUPPORTED</li>
+        <li className="my-[10px] cursor-pointer md:whitespace-nowrap text-start">CURRENT CAUSE SUPPORTED</li>
       </ul>
      </div>
      <div className="footer:w-[30%] mt-[35px] footer:mt-0 w-full flex flex-col items-start text-start footer:items-end footer:text-end">
