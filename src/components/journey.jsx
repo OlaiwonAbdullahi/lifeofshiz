@@ -3,10 +3,12 @@ import JourneyImg from "../../public/images/shizraehero.jpg";
 const Journey = () => {
   return (
     <div>
-      <div className=" mt-[60px] flex p-2.5 md:p-5 gap-5 flex-col md:flex-row justify-center items-center">
+      <div className="  bg-[#e3dcdc] flex p-2.5 md:p-5 gap-5 flex-col md:flex-row justify-center items-center">
         <div className="flex flex-col gap-5 md:w-1/2 w-full">
-          <h1 className="text-4xl font-semibold font-ubuntu">My Journey</h1>
-          <p className="text-lg font-Montserrat">
+          <h1 className="text-4xl font-semibold font-ubuntu  text-[#6b4c2d] ">
+            My Journey
+          </h1>
+          <p className="text-base font-Montserrat">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
             voluptatibus, cumque, nobis, nihil eveniet libero doloremque
             distinctio sequi voluptates sint ratione reprehenderit. Quisquam
@@ -17,7 +19,7 @@ const Journey = () => {
             expedita harum quidem.
           </p>
         </div>
-        <div className="hidden md:flex md:w-1/2 w-full">
+        <div className="flex md:w-1/2 w-2/3 ">
           <img src={JourneyImg} alt="" className=" rounded-2xl" />
         </div>
       </div>
