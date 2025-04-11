@@ -2,7 +2,7 @@ import React from "react";
 
 function Hero() {
   return (
-    <section className="hero h-[calc(100vh-80px)] text-[#e3dcdc] relative flex items-center justify-center p-[30px]">
+    <section className="hero mt-14 md:mt-[65px] h-[calc(100vh-80px)] text-[#e3dcdc] relative flex items-center justify-center p-[30px]">
       <div className="absolute bg-[hsla(0,0%,0%,0.3)] inset-0" />
       <div className="w-[90%] text-start">
         <h1 className="md:text-7xl text-5xl font-bold font-ubuntu leading-[1.1]">

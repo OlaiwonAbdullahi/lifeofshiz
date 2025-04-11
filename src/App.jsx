@@ -1,18 +1,24 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React from "react";
+
 import Home from "./pages/Home";
 import Nav from "./components/navbar";
+import Home from "./pages/home";
+
 import About from "./pages/about";
+import Nav from "./components/navbar";
+import Footer from "./components/footer";
 
 const App = () => {
   return (
     <div className="flex flex-col w-full">
-      <Router>
+       <Router>
         <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );
