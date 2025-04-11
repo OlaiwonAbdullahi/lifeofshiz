@@ -19,6 +19,7 @@ const socialLinks = [
 
 function SmallCard() {
   return (
+
     <div className="absolute left-[5%] bottom-5 w-[90%] sm:w-[70%] md:w-[40%] h-[70%] p-6  flex flex-col items-center justify-start">
       <div className="flex flex-wrap justify-between w-full gap-y-3">
         {socialLinks.map((item, index) => (
