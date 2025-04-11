@@ -5,6 +5,8 @@ import About from "./pages/about";
 import Nav from "./components/navbar";
 import Footer from "./components/footer";
 import Connect from "./pages/connect";
+import VisionBoard from "./pages/VisionBoard";
+import Spiritual from "./pages/Spiritual";
 
 const App = () => {
   return (
@@ -15,6 +17,8 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Connect />} />
+          <Route path="/vision" element={<VisionBoard />} />
+          <Route path="/spiritual" element={<Spiritual />} />
         </Routes>
         <Footer />
       </Router>
