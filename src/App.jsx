@@ -4,6 +4,7 @@ import Home from "./pages/home";
 import About from "./pages/about";
 import Nav from "./components/navbar";
 import Footer from "./components/footer";
+import Connect from "./pages/connect";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/connect" element={<Connect />} />
         </Routes>
         <Footer />
       </Router>

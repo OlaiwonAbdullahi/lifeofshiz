@@ -3,13 +3,13 @@ import { CiMenuBurger } from "react-icons/ci";
 import { LiaTimesSolid } from "react-icons/lia";
 
 const navItems = [
-  { label: "Home", href: "#" },
+  { label: "Home", href: "/" },
   { label: "About", href: "#" },
   { label: "Travel Guides", href: "#" },
   { label: "Spiritual Reflections", href: "#" },
   { label: "Social Impact", href: "#" },
   { label: "Vision Board", href: "#" },
-  { label: "Connect", href: "#" },
+  { label: "Connect", href: "/connect" },
 ];
 
 function Nav() {
