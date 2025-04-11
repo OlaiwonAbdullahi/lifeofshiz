@@ -1,12 +1,18 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React from "react";
 import Home from "./pages/home";
-import Footer from "./components/footer";
 
 const App = () => {
   return (
     <div className="flex flex-col w-full">
-      <Home />
-      <Footer />
+       <Router>
+        <Nav />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+        <Footer />
+      </Router>
     </div>
   );
 };
