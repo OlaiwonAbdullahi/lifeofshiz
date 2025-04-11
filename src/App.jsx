@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React from "react";
-import Home from "./pages/Home"; // make sure your file is named Home.jsx
+import Home from "./pages/Home";
 import Nav from "./components/navbar";
 import About from "./pages/about";
 

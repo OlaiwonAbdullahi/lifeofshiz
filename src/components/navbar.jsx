@@ -45,7 +45,7 @@ function Nav() {
 
       {/* Mobile Dropdown */}
       {open && (
-        <div className="absolute top-[80px] left-0 right-0 bg-[#6b4c2d] p-5 md:hidden shadow-md transition-all">
+        <div className="absolute  w-2/3  flex flex-col mx-auto  rounded-2xl top-[60px] left-0 right-0 bg-[#6b4c2d] p-5 md:hidden shadow-md transition-all">
           <ul className="flex flex-col gap-4">
             {navItems.map((item) => (
               <li key={item.label}>
