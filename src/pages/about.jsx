@@ -6,7 +6,7 @@ import Gallery from "../components/gallery";
 
 const About = () => {
   return (
-    <div>
+    <div className="bg-[#e3dcdc]">
       <AboutHero />
       <Journey />
       <FunFacts />
