@@ -1,15 +1,15 @@
 import React from "react";
-import JourneyImg from "../../public/images/shizraehero.jpg";
-const Journey = () => {
+
+const Vision = () => {
   return (
     <div>
       <div className="  bg-[#e3dcdc] flex p-2.5 md:p-5 gap-5 flex-col md:flex-row justify-center items-center">
         <div className="flex flex-col gap-5 md:w-1/2 w-full">
           <h1 className="text-4xl font-semibold font-ubuntu  text-[#6b4c2d] ">
-            My Journey
+            My Vision
           </h1>
           <p className="border-l-2 p-3  text-sm  font-Montserrat leading-[1.1]">
-            The Road That Shaped Me
+            A Journey of Self-Discovery and Growth
           </p>
           <p className="text-base font-Montserrat">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
@@ -23,11 +23,11 @@ const Journey = () => {
           </p>
         </div>
         <div className="flex md:w-1/2 w-2/3 ">
-          <img src={JourneyImg} alt="" className=" rounded-2xl" />
+          <img src="/images/shizraehero.jpg" alt="" className=" rounded-2xl" />
         </div>
       </div>
     </div>
   );
 };
 
-export default Journey;
+export default Vision;

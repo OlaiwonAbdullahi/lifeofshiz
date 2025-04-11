@@ -1,16 +1,35 @@
-import React from 'react'
+import React from "react";
+import { BsSend } from "react-icons/bs";
 
 function SmallCardtwo() {
   return (
-    <div className='absolute flex flex-col justify-center items-center bg-white shadow-lg p-[20px] connect:w-[40%] w-[90%] connect:h-[70%] h-[40%] right-[5%] bottom-[35px]'>
-         <img src="/public/images/connectface.png" alt="cartoon" className='connect:w-[100px] connect:h-[100px] w-[50px] h-[50px] mb-[20px]'/>
-        <h1 className='text-xl'>Get Advice</h1>
-        <p className='text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quis dolorem! Sint?</p>
-        <button className='cursor-pointer mt-[20px] bg-[#6b4c2d] flex items-center  text-[#e3dcdc] px-[20px] py-[10px] rounded-full font-Montserrat hover:bg-[#695f4d] transition-all duration-300'>
-            Connect
-        </button>
+
+    <div className="rounded-xl absolute right-[5%] bottom-[20px] flex flex-col items-center shadow-xl p-6 w-[90%] sm:w-[70%] md:w-[40%] h-[75%] bg-white/10 backdrop-blur-md border border-white/30">
+      <h1 className="text-2xl font-medium font-ubuntu text-[#6b4c2d] self-start mb-4">
+        Work with me
+      </h1>
+
+      <form className="w-full flex flex-col gap-4 pb-2.5">
+        <input
+          type="text"
+          placeholder="Your Name"
+          className="w-full p-3 rounded-md border border-gray-300 bg-white/70 focus:outline-none focus:ring-2 focus:ring-[#6b4c2d] text-sm"
+        />
+        <input
+          type="email"
+          placeholder="Your Email"
+          className="w-full p-3 rounded-md border border-gray-300 bg-white/70 focus:outline-none focus:ring-2 focus:ring-[#6b4c2d] text-sm"
+        />
+        <textarea
+          rows="4"
+          placeholder="Your Message"
+          className="w-full p-3 rounded-md border border-gray-300 bg-white/70 focus:outline-none focus:ring-2 focus:ring-[#6b4c2d] text-sm"
+        />
+        <button className=" flex items-center gap-2.5 cursor-pointer bg-[#6b4c2d] text-[#e3dcdc] px-6 py-3 rounded-md text-center justify-center font-Montserrat hover:bg-[#695f4d] transition-all duration-300">
+          Send <BsSend />
+      </form>
     </div>
-  )
+  );
 }
 
-export default SmallCardtwo
+export default SmallCardtwo;

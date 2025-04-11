@@ -1,7 +1,7 @@
 function Gallery() {
   return (
     <div className="  bg-[#e3dcdc] p-1.5">
-      <div className="">
+      <div className=" p-3.5">
         <h2 className="text-3xl font-bold text-left  flex justify-start text-[#6b4c2d] items-center gap-2 font-ubuntu">
           My Moments in Frames
         </h2>

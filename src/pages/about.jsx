@@ -1,15 +1,17 @@
 import React from "react";
-import Journey from "../components/journey";
-import AboutHero from "../components/aboutHero";
-import FunFacts from "../components/funFacts";
-import Gallery from "../components/gallery";
+import Journey from "../components/about/journey";
+import AboutHero from "../components/about/aboutHero";
+import FunFacts from "../components/about/funFacts";
+import Gallery from "../components/about/gallery";
+import Vision from "../components/about/vision";
 
 const About = () => {
   return (
-    <div>
+    <div className="bg-[#e3dcdc]">
       <AboutHero />
       <Journey />
       <FunFacts />
+      <Vision />
       <Gallery />
     </div>
   );
