@@ -5,6 +5,7 @@
   --font-ubuntu: "Ubuntu", sans-serif;
   --font-Montserrat: "Montserrat", sans-serif;
   --breakpoint-footer: 940px;
+  --breakpoint-connect: 688px;
 }
 
 :root {
