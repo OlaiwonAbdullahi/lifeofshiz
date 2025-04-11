@@ -8,6 +8,9 @@ const Journey = () => {
           <h1 className="text-4xl font-semibold font-ubuntu  text-[#6b4c2d] ">
             My Journey
           </h1>
+          <p className="border-l-2 p-3  text-sm  font-Montserrat leading-[1.1]">
+            The Road That Shaped Me
+          </p>
           <p className="text-base font-Montserrat">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
             voluptatibus, cumque, nobis, nihil eveniet libero doloremque
