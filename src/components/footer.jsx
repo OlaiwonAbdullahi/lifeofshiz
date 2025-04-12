@@ -12,7 +12,7 @@ function Footer() {
     <section className="p-[25px] bg-[#3f2c1a] text-[#e3dcdc] ">
       <div className="flex items-center text-center w-[94%] mx-auto footer:flex-row flex-col">
         <div className="flex flex-col items-start w-full footer:w-[20%] mr-[15px]">
-          <h1 className="text-3xl border-b-[3px] border-b-[#6b4c2d]">
+          <h1 className=" font-ubuntu text-3xl border-b-[3px] border-b-[#6b4c2d]">
             Follow Shizrae
           </h1>
           <div className="flex items-start w-full mt-[10px]">
@@ -41,6 +41,7 @@ function Footer() {
           </div>
         </div>
         <div className="flex items-start mt-[25px] footer:mt-0 w-full footer:w-[50%]">
+          <h2>Quick Links</h2>
           <ul className="w-1/2 flex flex-col items-start">
             <li className="my-[10px] cursor-pointer">HOME</li>
             <li className="my-[10px] cursor-pointer">ABOUT</li>
