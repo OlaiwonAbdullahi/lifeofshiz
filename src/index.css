@@ -19,14 +19,28 @@
 }
 
 .hero {
-  background: url("../../public/images/shizraehero.jpg");
+  background: url("../public/images/shizraehero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.visionhero {
+  background: url("../public/images/visionhero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.spiritualhero{
+  background: url("../public/images/spiritualhero.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .hero h1,
-.hero p {
+.hero p, .visionhero h1, .visionhero p, .spiritualhero h1, .spiritualhero p {
   position: relative;
   z-index: 1;
 }
@@ -35,11 +49,32 @@ nav {
   z-index: 9;
 }
 
-.photos img {
+.photos img, .bucketListgrid div, .spiritpost div {
   transition: 0.5s;
 }
 
-.photos img:hover {
+.photos img:hover, .bucketListgrid div:hover, .spiritpost div:hover {
   scale: 1.02;
 }
 
+
+.bucketListgrid{
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  background-color: #0d0c0d;
+}
+
+@media(max-width:500px){
+  .bucketListgrid{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+  }
+  .bucketListgrid div{
+    width: 100%;
+  }
+}
