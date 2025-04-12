@@ -17,7 +17,7 @@ function Nav() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 md:h-[65px] h-14  bg-[#6b4c2d] text-[#e3dcdc] px-5 flex items-center justify-between z-50 shadow-md">
+    <nav className="fixed z-20 top-0 left-0 right-0 md:h-[65px] h-14  bg-[#6b4c2d] text-[#e3dcdc] px-5 flex items-center justify-between shadow-md">
       <Link to="/" className="flex items-center gap-2">
         <h1 className="text-2xl font-semibold font-ubuntu">Shizrae</h1>
       </Link>

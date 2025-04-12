@@ -4,6 +4,7 @@ import AboutHero from "../components/about/aboutHero";
 import FunFacts from "../components/about/funFacts";
 import Gallery from "../components/about/gallery";
 import Vision from "../components/about/vision";
+import Timeline from "../components/about/timeline";
 
 const About = () => {
   return (
@@ -12,6 +13,7 @@ const About = () => {
       <Journey />
       <FunFacts />
       <Vision />
+      <Timeline />
       <Gallery />
     </div>
   );
