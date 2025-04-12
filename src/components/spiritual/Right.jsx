@@ -18,14 +18,20 @@ const notes = [{
 ]
 function Right() {
   return (
-    <div className='spiritpost flex flex-col h-[fit-content] w-full md:w-[49%] mt-[25px]'>
-            <h1 className='text-3xl mb-[20px] md:text-end'>Devotion</h1>
+    <div className='spiritpost flex flex-col items-center h-[fit-content] w-full md:w-[49%] mt-[25px]'>
+            <h1 className='w-full text-3xl mb-[20px] md:text-end font-bold'>Devotion</h1>
           {notes.map((item, index)=>{
-            return <div key={index} className='mb-[30px] cursor-pointer'>
-                <h1 className='text-2xl mb-[15px]'>{item.title}</h1>
-                <img className='h-[300px] w-full object-cover object-center' src={item.imgLink} alt={item.title} />
-                <p className='mt-[20px]'>{item.desc} <span className='inline-flex items-center text-[#601115] font-bold cursor-pointer'>Read More <MdOutlineKeyboardDoubleArrowRight className='mt-[3px]' /></span></p>
+            return <div key={index} className='max-w-[509px] shadow-lg mb-[30px] bg-white text-[#695f4d] rounded-[15px] cursor-pointer'>
+            <img className='rounded-tl-[15px] rounded-tr-[15px] h-[300px] w-full object-cover object-center' src={item.imgLink} alt={item.title} />
+            <div className='w-full p-[20px]'>
+              <h1 className='text-2xl mb-[15px] mt-[20px] font-bold'>{item.title}</h1>
+              <p>{item.desc}</p>
+              <div className='w-full flex items-center justify-between mt-[20px]'>
+                <div className='flex items-center'><img src="/public/images/connectface.png" alt="author" className='w-[30px] h-[30px]'/><span className='ml-[10px]'>Author Name</span></div>
+                <span>Date</span>
+              </div>
             </div>
+        </div>
           })}
         </div>
   )
