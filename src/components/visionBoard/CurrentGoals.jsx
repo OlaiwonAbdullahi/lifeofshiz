@@ -1,42 +1,39 @@
-import React from 'react'
+import React from "react";
 
-function CurrentGoals() {
+const CurrentGoals = () => {
   return (
-    <section className="photos flex items-start h-[600px] p-[10px] bg-[#6b4c2d]">
-      <a href="#" className="h-full w-1/2 mr-[10px]">
-        <img
-          className="h-full w-full object-cover object-top  cursor-pointer"
-          src="/images/collageimg1.jpg"
-          alt="collageimg"
-        />
-      </a>
-      <div className="flex flex-col w-1/2 h-full">
-        <a href="#" className="w-full h-1/2">
-          <img
-            className="w-full h-full object-cover object-center cursor-pointer"
-            src="/images/collageimg2.jpg"
-            alt="collageimg"
-          />
-        </a>
-        <div className="flex items-start h-1/2 pt-[10px]">
-          <a href="#" className="mr-[10px] w-1/2 h-full">
+    <div>
+      <div>
+        <div className="  bg-[#e3dcdc] flex p-2.5 md:p-5 gap-5 flex-col md:flex-row justify-center items-center">
+          <div className="flex flex-col gap-5 md:w-1/2 w-full">
+            <h1 className="text-4xl font-semibold font-ubuntu  text-[#6b4c2d] ">
+              My Vision
+            </h1>
+            <p className="border-l-2 p-3  text-sm  font-Montserrat leading-[1.1]">
+              A Journey of Self-Discovery and Growth
+            </p>
+            <p className="text-base font-Montserrat">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+              voluptatibus, cumque, nobis, nihil eveniet libero doloremque
+              distinctio sequi voluptates sint ratione reprehenderit. Quisquam
+              incidunt, quaerat iure cumque saepe necessitatibus alias. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Nobis minima
+              nam obcaecati distinctio assumenda, debitis sequi aliquam atque
+              nesciunt quod quis pariatur. Architecto repellendus, quia ad
+              mollitia expedita harum quidem.
+            </p>
+          </div>
+          <div className="flex md:w-1/2 w-2/3 ">
             <img
-              className="w-full h-full object-cover object-top  cursor-pointer"
-              src="/images/collageimg3.jpg"
-              alt="collageimg"
+              src="/images/shizraehero.jpg"
+              alt=""
+              className=" rounded-2xl"
             />
-          </a>
-          <a href="#" className="w-1/2 h-full">
-            <img
-              className="w-full h-full object-cover object-top cursor-pointer"
-              src="/images/collageimg4.jpg"
-              alt="collageimg"
-            />
-          </a>
+          </div>
         </div>
       </div>
-    </section>
-  )
-}
+    </div>
+  );
+};
 
-export default CurrentGoals
+export default CurrentGoals;
