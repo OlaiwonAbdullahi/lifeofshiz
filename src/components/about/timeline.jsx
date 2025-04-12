@@ -56,67 +56,75 @@ const timelineData = [
 
 const Timeline = () => {
   return (
-    <div className="max-w-5xl mx-auto px-4 py-10">
-      <h2 className="text-3xl font-bold mb-12 text-center">Project Timeline</h2>
-      <div className="relative">
-        {/* Vertical line */}
-        <div className="absolute left-1/2 transform -translate-x-1/2 h-full border-l-4 border-[#6b4c2d]"></div>
+    <div className=" p-4">
+      <h2 className="text-3xl font-bold text-left mb-3 flex justify-start text-[#6b4c2d] items-center gap-2 font-ubuntu">
+        Brand Evolution Timeline
+      </h2>
+      <p className="border-l-2 p-3 mb-3.5  text-sm  font-Montserrat leading-[1.1]">
+        Milestones That Shaped My Brand
+      </p>
 
-        <div className="flex flex-col gap-16">
-          {timelineData.map((item, index) => {
-            const isLeft = index % 2 === 0;
+      <div className="max-w-5xl mx-auto px-4 py-10">
+        <div className="relative">
+          {/* Vertical line */}
+          <div className="absolute left-1/2 transform -translate-x-1/2 h-full border-l-4 border-[#6b4c2d]"></div>
 
-            return (
-              <div
-                key={index}
-                className="flex flex-col md:flex-row items-center relative"
-              >
-                {isLeft ? (
-                  <>
-                    {/* Left content */}
-                    <div className="w-full md:w-1/2 md:pr-8">
-                      <div className="bg-white shadow-md p-6 rounded-xl border border-gray-200">
-                        <h3 className="text-xl font-semibold font-ubuntu">
-                          {item.title}
-                        </h3>
-                        <p className="text-sm text-gray-500  font-Montserrat">
-                          {item.date}
-                        </p>
-                        <p className="text-gray-700 mt-2  font-Montserrat">
-                          {item.description}
-                        </p>
+          <div className="flex flex-col gap-16">
+            {timelineData.map((item, index) => {
+              const isLeft = index % 2 === 0;
+
+              return (
+                <div
+                  key={index}
+                  className="flex flex-col md:flex-row items-center relative"
+                >
+                  {isLeft ? (
+                    <>
+                      {/* Left content */}
+                      <div className="w-full md:w-1/2 md:pr-8">
+                        <div className="bg-white shadow-md p-6 rounded-xl border border-gray-200">
+                          <h3 className="text-xl font-semibold font-ubuntu">
+                            {item.title}
+                          </h3>
+                          <p className="text-sm text-gray-500  font-Montserrat">
+                            {item.date}
+                          </p>
+                          <p className="text-gray-700 mt-2  font-Montserrat">
+                            {item.description}
+                          </p>
+                        </div>
                       </div>
-                    </div>
-                    {/* Dot */}
-                    <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-[#6b4c2d] rounded-full border-4 border-white z-10"></div>
-                    {/* Empty space on right */}
-                    <div className="hidden md:block md:w-1/2" />
-                  </>
-                ) : (
-                  <>
-                    {/* Empty space on left */}
-                    <div className="hidden md:block md:w-1/2" />
-                    {/* Dot */}
-                    <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-[#6b4c2d] rounded-full border-4 border-white z-10"></div>
-                    {/* Right content */}
-                    <div className="w-full md:w-1/2 md:pl-8 md:order-last">
-                      <div className="bg-white shadow-md p-6 rounded-xl border border-gray-200">
-                        <h3 className="text-xl font-semibold font-ubuntu">
-                          {item.title}
-                        </h3>
-                        <p className="text-sm text-gray-500 font-Montserrat">
-                          {item.date}
-                        </p>
-                        <p className="text-gray-700 mt-2 font-Montserrat">
-                          {item.description}
-                        </p>
+                      {/* Dot */}
+                      <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-[#6b4c2d] rounded-full border-4 border-white z-10"></div>
+                      {/* Empty space on right */}
+                      <div className="hidden md:block md:w-1/2" />
+                    </>
+                  ) : (
+                    <>
+                      {/* Empty space on left */}
+                      <div className="hidden md:block md:w-1/2" />
+                      {/* Dot */}
+                      <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-[#6b4c2d] rounded-full border-4 border-white z-10"></div>
+                      {/* Right content */}
+                      <div className="w-full md:w-1/2 md:pl-8 md:order-last">
+                        <div className="bg-white shadow-md p-6 rounded-xl border border-gray-200">
+                          <h3 className="text-xl font-semibold font-ubuntu">
+                            {item.title}
+                          </h3>
+                          <p className="text-sm text-gray-500 font-Montserrat">
+                            {item.date}
+                          </p>
+                          <p className="text-gray-700 mt-2 font-Montserrat">
+                            {item.description}
+                          </p>
+                        </div>
                       </div>
-                    </div>
-                  </>
-                )}
-              </div>
-            );
-          })}
+                    </>
+                  )}
+                </div>
+              );
+            })}
+          </div>
         </div>
       </div>
     </div>
