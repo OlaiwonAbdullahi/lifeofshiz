@@ -41,6 +41,7 @@ const FunFacts = () => {
           Fun Facts About Me
         </p>
       </div>
+
       <section className="max-w-4xl mx-auto px-4 pb-10 bg-[#e3dcdc]">
         <div className="space-y-4">
           {funFacts.map((fact, index) => (
