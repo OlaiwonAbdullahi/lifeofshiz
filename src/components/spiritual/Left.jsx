@@ -20,6 +20,7 @@ const notes = [
 ];
 function Left() {
   return (
+
     <div className="spiritpost items-center flex flex-col h-[fit-content] w-full md:w-[49%] mt-[25px] ">
       <h1 className="text-start w-full text-3xl mb-[20px] font-bold">
         Spiritual Growth
