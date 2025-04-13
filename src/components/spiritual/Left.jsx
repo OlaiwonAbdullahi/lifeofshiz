@@ -21,7 +21,7 @@ function Left() {
     <div className='spiritpost items-center flex flex-col h-[fit-content] w-full md:w-[49%] mt-[25px]'>
         <h1 className='text-start w-full text-3xl mb-[20px] font-bold'>Spiritual Growth</h1>
       {notes.map((item, index)=>{
-        return <div key={index} className='max-w-[509px] shadow-lg mb-[30px] bg-white text-[#695f4d] rounded-[15px] cursor-pointer'>
+        return <div key={index} className='md:max-w-[509px] shadow-lg mb-[30px] bg-white text-[#695f4d] rounded-[15px] cursor-pointer'>
             <img className='rounded-tl-[15px] rounded-tr-[15px] h-[300px] w-full object-cover object-center' src={item.imgLink} alt={item.title} />
             <div className='w-full p-[20px]'>
               <h1 className='text-2xl mb-[15px] mt-[20px] font-bold'>{item.title}</h1>
