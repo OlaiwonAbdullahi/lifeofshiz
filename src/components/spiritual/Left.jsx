@@ -4,17 +4,17 @@ import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 const notes = [
   {
     title: "Banana post",
-    imgLink: "/public/images/collageimg2.jpg",
+    imgLink: "/images/collageimg2.jpg",
     desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum cumque repudiandae corrupti odio doloremque? Sequi in accusantium quae excepturi harum?",
   },
   {
     title: "Banana post",
-    imgLink: "/public/images/collageimg2.jpg",
+    imgLink: "/images/collageimg2.jpg",
     desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum cumque repudiandae corrupti odio doloremque? Sequi in accusantium quae excepturi harum?",
   },
   {
     title: "Banana post",
-    imgLink: "/public/images/collageimg2.jpg",
+    imgLink: "/images/collageimg2.jpg",
     desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum cumque repudiandae corrupti odio doloremque? Sequi in accusantium quae excepturi harum?",
   },
 ];
