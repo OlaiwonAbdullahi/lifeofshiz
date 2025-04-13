@@ -72,7 +72,7 @@ nav {
   .bucketListgrid{
     display: flex;
     flex-direction: column;
-    width: 95%;
+    width: 100%;
   }
   .bucketListgrid div{
     width: 100%;
