@@ -8,7 +8,7 @@ function SmallCardtwo() {
         Work with me
       </h1>
 
-      <form className="w-full flex flex-col gap-4 pb-2.5">
+      <form  onSubmit={e=>e.preventDefault()} className="w-full min-h-[90%] overflow-y-auto flex flex-col gap-4 pb-2.5">
         <input
           type="text"
           placeholder="Your Name"

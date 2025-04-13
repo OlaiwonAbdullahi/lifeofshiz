@@ -41,14 +41,14 @@ const AdviceBookings = () => {
   };
 
   return (
-    <div className="rounded-xl absolute right-[5%] bottom-[20px] flex flex-col items-center shadow-xl p-6 w-[90%] sm:w-[70%] md:w-[40%] h-[75%] bg-white/10 backdrop-blur-md border border-white/30">
+    <div className="rounded-xl absolute right-[5%] bottom-[20px] flex flex-col items-center shadow-xl p-6 w-[90%] /*sm:w-[70%]*/ connectform:w-[40%] h-[75%] bg-white/10 backdrop-blur-md border border-white/30">
       <h1 className="text-2xl font-medium font-ubuntu text-[#6b4c2d] self-start mb-4">
         Book For Advice
       </h1>
 
       <form
         onSubmit={handleSubmit}
-        className="w-full flex flex-col gap-4 pb-2.5"
+        className="w-full flex flex-col min-h-[90%] overflow-y-auto gap-4 pb-2.5"
       >
         <input
           name="name"

@@ -18,7 +18,7 @@ const socialLinks = [
   { icon: <PiFacebookLogo className="w-6 h-6" />, label: "Facebook" },
 ];
 
-function SmallCard() {
+function SmallCard({switchForm, setSwitchForm}) {
   const [openAdviceBooking, setOpenAdviceBooking] = useState(false);
 
   return (
@@ -40,9 +40,10 @@ function SmallCard() {
       </div>
       <button
         className="mt-6 flex items-center gap-2.5 cursor-pointer bg-[#6b4c2d] text-[#e3dcdc] px-6 py-3 rounded-md font-Montserrat hover:bg-[#695f4d] transition-all duration-300"
-        onClick={() => setOpenAdviceBooking(!openAdviceBooking)}
+       onClick={()=>{setSwitchForm(!switchForm)}}
+        /*onClick={() => setOpenAdviceBooking(!openAdviceBooking)}*/
       >
-        Get Advice
+        {switchForm?"Work with me":"Get Advice"}
       </button>
       {openAdviceBooking && <AdviceBookings />}
     </div>

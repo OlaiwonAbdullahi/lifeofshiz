@@ -6,6 +6,7 @@
   --font-Montserrat: "Montserrat", sans-serif;
   --breakpoint-footer: 940px;
   --breakpoint-connect: 688px;
+  --breakpoint-connectform: 824px;
 }
 
 :root {
