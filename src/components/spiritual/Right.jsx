@@ -27,7 +27,7 @@ function Right() {
               <h1 className='text-2xl mb-[15px] mt-[20px] font-bold'>{item.title}</h1>
               <p>{item.desc}</p>
               <div className='w-full flex items-center justify-between mt-[20px]'>
-                <div className='flex items-center'><img src="/public/images/connectface.png" alt="author" className='w-[30px] h-[30px]'/><span className='ml-[10px]'>Author Name</span></div>
+                <div className='flex items-center'><img src="/images/connectface.png" alt="author" className='w-[30px] h-[30px]'/><span className='ml-[10px]'>Author Name</span></div>
                 <span>Date</span>
               </div>
             </div>
