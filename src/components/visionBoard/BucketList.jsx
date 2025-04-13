@@ -9,9 +9,12 @@ const bucketList = [
 function BucketList() {
   return (
     <section className="bg-[#e3dcdc] p-[30px] text-[#6b4c2d]">
-      <h1 className="text-3xl mb-[20px] ml-[20px] font-bold">
-        Shizrae's Bucket List
-      </h1>
+      <h2 className="text-3xl font-bold text-left mb-3 flex justify-start text-[#6b4c2d] items-center gap-2 font-ubuntu">
+        Shizrae's Bucket List 🌍
+      </h2>
+      <p className="border-l-2 p-3 mb-3.5  text-sm  font-Montserrat leading-[1.1]">
+        CheckOut my BucketList
+      </p>
       <div className="bucketListgrid">
         {bucketList.map((item, index) => (
           <div className="bg-white cursor-pointer rounded-[15px]" key={index}>
