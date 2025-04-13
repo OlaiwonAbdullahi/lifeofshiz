@@ -6,7 +6,7 @@ const Vision = () => {
       <div className="  bg-[#e3dcdc] flex p-2.5 md:p-5 gap-5 flex-col md:flex-row justify-center items-center">
         <div className="flex flex-col gap-5 md:w-1/2 w-full">
           <h1 className="text-4xl font-semibold font-ubuntu  text-[#6b4c2d] ">
-            My Vision
+            My Vision 🎯
           </h1>
           <p className="border-l-2 p-3  text-sm  font-Montserrat leading-[1.1]">
             A Journey of Self-Discovery and Growth

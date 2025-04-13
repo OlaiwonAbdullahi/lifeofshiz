@@ -6,7 +6,7 @@ const Destination = () => {
       <div className="bg-[#e3dcdc] p-1.5">
         <div className="p-3.5">
           <h2 className="text-3xl font-bold text-left flex justify-start text-[#6b4c2d] items-center gap-2 font-ubuntu">
-            Destination Diaries
+            Destination Diaries 📙
           </h2>
           <p className="border-l-2 p-3 text-sm font-Montserrat leading-[1.1]">
             Exploring the World, One Story at a Time
