@@ -8,7 +8,6 @@ const navItems = [
   { label: "About", href: "/about" },
   { label: "Travel Guides", href: "/travel" },
   { label: "Spiritual Reflections", href: "spiritual" },
-  { label: "Social Impact", href: "social" },
   { label: "Vision Board", href: "vision" },
   { label: "Contact", href: "contact" },
 ];
