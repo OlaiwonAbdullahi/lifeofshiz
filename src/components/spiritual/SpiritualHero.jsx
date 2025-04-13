@@ -2,7 +2,7 @@ import React from 'react'
 
 function SpiritualHero() {
   return (
-    <section className="spiritualhero h-[calc(100vh-65px)] text-[#e3dcdc] relative flex items-center justify-center p-[30px]">
+    <section className="spiritualhero h-[calc(90vh-65px)]  md:h-[calc(100vh-65px)] text-[#e3dcdc] relative flex items-center justify-center p-[30px]">
     <div className="absolute bg-[hsla(0,0%,0%,0.3)] inset-0" />
     <div className="w-[90%] text-start">
       <h1 className="md:text-7xl text-5xl font-bold font-ubuntu leading-[1.1]">

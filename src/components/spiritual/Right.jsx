@@ -2,17 +2,17 @@ import React from 'react'
 import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 const notes = [{
     title:"Banana post",
-    imgLink:"/public/images/collageimg2.jpg",
+    imgLink:"/images/collageimg2.jpg",
     desc:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum cumque repudiandae corrupti odio doloremque? Sequi in accusantium quae excepturi harum?"
 },
 {
     title:"Banana post",
-    imgLink:"/public/images/collageimg2.jpg",
+    imgLink:"/images/collageimg2.jpg",
     desc:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum cumque repudiandae corrupti odio doloremque? Sequi in accusantium quae excepturi harum?"
 },
 {
     title:"Banana post",
-    imgLink:"/public/images/collageimg2.jpg",
+    imgLink:"/images/collageimg2.jpg",
     desc:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum cumque repudiandae corrupti odio doloremque? Sequi in accusantium quae excepturi harum?"
 },
 ]
@@ -27,7 +27,7 @@ function Right() {
               <h1 className='text-2xl mb-[15px] mt-[20px] font-bold'>{item.title}</h1>
               <p>{item.desc}</p>
               <div className='w-full flex items-center justify-between mt-[20px]'>
-                <div className='flex items-center'><img src="/public/images/connectface.png" alt="author" className='w-[30px] h-[30px]'/><span className='ml-[10px]'>Author Name</span></div>
+                <div className='flex items-center'><img src="/images/connectface.png" alt="author" className='w-[30px] h-[30px]'/><span className='ml-[10px]'>Author Name</span></div>
                 <span>Date</span>
               </div>
             </div>

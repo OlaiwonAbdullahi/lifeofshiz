@@ -6,6 +6,7 @@
   --font-Montserrat: "Montserrat", sans-serif;
   --breakpoint-footer: 940px;
   --breakpoint-connect: 688px;
+  --breakpoint-connectform: 824px;
 }
 
 :root {
@@ -80,7 +81,7 @@ nav {
   .bucketListgrid {
     display: flex;
     flex-direction: column;
-    width: 95%;
+    width: 100%;
   }
   .bucketListgrid div {
     width: 100%;

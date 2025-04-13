@@ -16,6 +16,8 @@ function VisionHero() {
       </div>
     </section>
   );
+
+
 }
 
 export default VisionHero;
