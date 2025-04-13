@@ -1,5 +1,5 @@
 import React from 'react'
-const bucketList = [{title:"Smell a flower", imgLink:"/public/images/collageimg1.jpg"},
+const bucketList = [{title:"Smell a flower", imgLink:"/images/collageimg1.jpg"},
     {title:"Smell a flower", imgLink:"/images/collageimg1.jpg"},
     {title:"Smell a flower", imgLink:"/images/collageimg1.jpg"},
     
