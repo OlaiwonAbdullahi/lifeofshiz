@@ -1,37 +1,48 @@
 function Photo() {
   return (
-    <section className="photos flex items-start h-[600px] p-[10px] bg-[#695f4d]">
-      <a href="#" className="h-full w-1/2 mr-[10px]">
+    <section className="photos flex flex-col md:flex-row w-full gap-3 p-5 bg-[#e3dcdc] items-stretch">
+      {/* Left large image */}
+      <a href="#" className="w-full md:w-1/2 h-[400px] md:h-auto">
         <img
-          className="h-full w-full object-cover object-top  cursor-pointer"
+          className="w-full h-full object-cover object-top rounded-md cursor-pointer"
           src="/images/collageimg1.jpg"
           alt="collageimg"
         />
       </a>
-      <div className="flex flex-col w-1/2 h-full">
-        <a href="#" className="w-full h-1/2">
+
+      {/* Right collage */}
+      <div className="flex flex-col w-full md:w-1/2 gap-3 h-full">
+        <a href="#" className="w-full h-full">
           <img
-            className="w-full h-full object-cover object-center cursor-pointer"
+            className="w-full h-full object-cover object-center rounded-md cursor-pointer"
             src="/images/collageimg2.jpg"
             alt="collageimg"
           />
         </a>
-        <div className="flex items-start h-1/2 pt-[10px]">
-          <a href="#" className="mr-[10px] w-1/2 h-full">
+
+        <div className="flex gap-3 h-1/2">
+          <a href="#" className="w-1/2 h-full">
             <img
-              className="w-full h-full object-cover object-top  cursor-pointer"
+              className="w-full h-full object-cover object-top rounded-md cursor-pointer"
               src="/images/collageimg3.jpg"
               alt="collageimg"
             />
           </a>
           <a href="#" className="w-1/2 h-full">
             <img
-              className="w-full h-full object-cover object-top cursor-pointer"
+              className="w-full h-full object-cover object-top rounded-md cursor-pointer"
               src="/images/collageimg4.jpg"
               alt="collageimg"
             />
           </a>
         </div>
+        <a href="#" className="w-full h-full">
+          <img
+            className="w-full h-full object-cover object-center rounded-md cursor-pointer"
+            src="/images/collageimg2.jpg"
+            alt="collageimg"
+          />
+        </a>
       </div>
     </section>
   );
