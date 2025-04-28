@@ -69,7 +69,7 @@ function Nav() {
               <li key={item.label}>
                 <Link
                   to={item.href}
-                  className="block text-lg hover:underline whitespace-nowrap"
+                  className="block text-xl hover:underline whitespace-nowrap"
                   onClick={() => setOpen(false)}
                 >
                   {item.label}
