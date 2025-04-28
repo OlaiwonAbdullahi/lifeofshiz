@@ -4,7 +4,7 @@ import TravelHero from "../components/travelsGuild/travelHero";
 
 const Travels = () => {
   return (
-    <div className="">
+    <div className=" bg-[#f1ebdd]">
       <TravelHero />
       <Destination />
       <Blog />

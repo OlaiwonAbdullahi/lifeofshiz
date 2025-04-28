@@ -1,6 +1,6 @@
 function Photo() {
   return (
-    <section className="photos flex flex-col md:flex-row w-full gap-3 p-5 bg-[#e3dcdc] items-stretch">
+    <section className="photos flex flex-col md:flex-row w-full gap-3 p-5 bg-[#f1ebdd] items-stretch">
       {/* Left large image */}
       <a href="#" className="w-full md:w-1/2 h-[400px] md:h-auto">
         <img

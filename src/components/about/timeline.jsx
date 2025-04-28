@@ -57,7 +57,7 @@ const timelineData = [
 const Timeline = () => {
   return (
     <div className=" p-4">
-      <h2 className="text-3xl font-bold text-left mb-3 flex justify-start text-[#6b4c2d] items-center gap-2 font-ubuntu">
+      <h2 className="text-3xl font-bold text-left mb-3 flex justify-start text-[#bf6d45] items-center gap-2 font-ubuntu">
         Brand Evolution Timeline 📅
       </h2>
       <p className="border-l-2 p-3 mb-3.5  text-sm  font-Montserrat leading-[1.1]">
@@ -67,7 +67,7 @@ const Timeline = () => {
       <div className="max-w-5xl mx-auto px-4 py-10">
         <div className="relative">
           {/* Vertical line */}
-          <div className="absolute left-1/2 transform -translate-x-1/2 h-full border-l-4 border-[#6b4c2d]"></div>
+          <div className="absolute left-1/2 transform -translate-x-1/2 h-full border-l-4 border-[#bf6d45]"></div>
 
           <div className="flex flex-col gap-16">
             {timelineData.map((item, index) => {
@@ -95,7 +95,7 @@ const Timeline = () => {
                         </div>
                       </div>
                       {/* Dot */}
-                      <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-[#6b4c2d] rounded-full border-4 border-white z-10"></div>
+                      <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-[#bf6d45] rounded-full border-4 border-white z-10"></div>
                       {/* Empty space on right */}
                       <div className="hidden md:block md:w-1/2" />
                     </>
@@ -104,7 +104,7 @@ const Timeline = () => {
                       {/* Empty space on left */}
                       <div className="hidden md:block md:w-1/2" />
                       {/* Dot */}
-                      <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-[#6b4c2d] rounded-full border-4 border-white z-10"></div>
+                      <div className="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-[#bf6d45] rounded-full border-4 border-white z-10"></div>
                       {/* Right content */}
                       <div className="w-full md:w-1/2 md:pl-8 md:order-last">
                         <div className="bg-white shadow-md p-6 rounded-xl border border-gray-200">

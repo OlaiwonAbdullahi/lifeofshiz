@@ -10,7 +10,7 @@ import {
 const impactData = [
   {
     icon: (
-      <TbHexagonNumber1 className="text-[#6b4c2d] size-14 bg-[#6b4c2d]/20 rounded-md p-1" />
+      <TbHexagonNumber1 className="text-[#bf6d45] size-14 bg-[#bf6d45]/20 rounded-md p-1" />
     ),
     title: "Community Service Highlights",
     description:
@@ -18,7 +18,7 @@ const impactData = [
   },
   {
     icon: (
-      <TbHexagonNumber2 className="text-[#6b4c2d] size-14 bg-[#6b4c2d]/20 rounded-md p-1" />
+      <TbHexagonNumber2 className="text-[#bf6d45] size-14 bg-[#bf6d45]/20 rounded-md p-1" />
     ),
     title: "UH Energy Board Involvement",
     description:
@@ -26,7 +26,7 @@ const impactData = [
   },
   {
     icon: (
-      <TbHexagonNumber3 className="text-[#6b4c2d] size-14 bg-[#6b4c2d]/20 rounded-md p-1" />
+      <TbHexagonNumber3 className="text-[#bf6d45] size-14 bg-[#bf6d45]/20 rounded-md p-1" />
     ),
     title: "Fundraisers & Campaigns",
     description: (
@@ -41,7 +41,7 @@ const impactData = [
   },
   {
     icon: (
-      <TbHexagonNumber4 className="text-[#6b4c2d] size-14 bg-[#6b4c2d]/20 rounded-md p-1" />
+      <TbHexagonNumber4 className="text-[#bf6d45] size-14 bg-[#bf6d45]/20 rounded-md p-1" />
     ),
     title: "Event Recaps & Photos",
     description:
@@ -49,7 +49,7 @@ const impactData = [
   },
   {
     icon: (
-      <TbHexagonNumber5 className="text-[#6b4c2d] size-14 bg-[#6b4c2d]/20 rounded-md p-1" />
+      <TbHexagonNumber5 className="text-[#bf6d45] size-14 bg-[#bf6d45]/20 rounded-md p-1" />
     ),
     title: "Ongoing Projects",
     description:
@@ -61,7 +61,7 @@ const SocialImpact = () => {
   return (
     <div className="py-10 px-4 md:px-10">
       <div className=" p-3">
-        <h2 className="text-2xl md:text-3xl font-bold text-[#6b4c2d] mb-6 font-ubuntu">
+        <h2 className="text-2xl md:text-3xl font-bold text-[#bf6d45] mb-6 font-ubuntu">
           Our Social Impact
         </h2>
         <p className="border-l-2 p-3 mb-3.5  text-sm  font-Montserrat leading-[1.1]">
@@ -72,10 +72,10 @@ const SocialImpact = () => {
         {impactData.map((item, index) => (
           <div
             key={index}
-            className="bg-white rounded-2xl p-4 border border-[#e3dcdc] font-Montserrat flex flex-col gap-2 shadow-sm hover:shadow-md transition"
+            className="bg-white rounded-2xl p-4 border border-[#f1ebdd] font-Montserrat flex flex-col gap-2 shadow-sm hover:shadow-md transition"
           >
             {item.icon}
-            <h3 className="text-lg font-semibold text-[#6b4c2d]">
+            <h3 className="text-lg font-semibold text-[#bf6d45]">
               {item.title}
             </h3>
             <p className="text-sm text-gray-700">{item.description}</p>

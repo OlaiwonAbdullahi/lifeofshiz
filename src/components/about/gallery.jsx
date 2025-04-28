@@ -1,15 +1,15 @@
 function Gallery() {
   return (
-    <div className="  bg-[#e3dcdc] p-1.5">
+    <div className="  bg-[#f1ebdd] p-1.5">
       <div className=" p-3.5">
-        <h2 className="text-3xl font-bold text-left  flex justify-start text-[#6b4c2d] items-center gap-2 font-ubuntu">
+        <h2 className="text-3xl font-bold text-left  flex justify-start text-[#bf6d45] items-center gap-2 font-ubuntu">
           My Moments in Frames📸
         </h2>
         <p className="border-l-2 p-3  text-sm  font-Montserrat leading-[1.1]">
           A glimpse into my world through my lens
         </p>
       </div>
-      <section className="photos flex items-start h-[600px] p-[10px] bg-[#e3dcdc]">
+      <section className="photos flex items-start h-[600px] p-[10px] bg-[#f1ebdd]">
         <a href="#" className="h-full w-1/2 mr-[10px]">
           <img
             className="h-full w-full object-cover object-top  cursor-pointer"

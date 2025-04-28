@@ -2,9 +2,9 @@ import React from "react";
 
 const Destination = () => {
   return (
-    <div className="bg-[#e3dcdc] p-1.5">
+    <div className="bg-[#f1ebdd] p-1.5">
       <div className="p-3.5">
-        <h2 className="text-3xl font-bold text-left flex justify-start text-[#6b4c2d] items-center gap-2 font-ubuntu">
+        <h2 className="text-3xl font-bold text-left flex justify-start text-[#bf6d45] items-center gap-2 font-ubuntu">
           Destination Diaries 📙
         </h2>
         <p className="border-l-2 p-3 text-sm font-Montserrat leading-[1.1]">
@@ -23,7 +23,7 @@ const Destination = () => {
             src="/images/collageimg1.jpg"
             alt="collageimg"
           />
-          <div className="absolute top-0 left-0 h-full w-full bg-[#6b4c2d]/90 text-white flex items-center justify-center opacity-0 transition duration-300 group-hover:opacity-100 rounded-2xl">
+          <div className="absolute top-0 left-0 h-full w-full bg-[#bf6d45]/90 text-white flex items-center justify-center opacity-0 transition duration-300 group-hover:opacity-100 rounded-2xl">
             <p className="text-lg font-bold">Explore Morocco</p>
           </div>
         </a>
@@ -40,7 +40,7 @@ const Destination = () => {
               src="/images/collageimg2.jpg"
               alt="collageimg"
             />
-            <div className="absolute top-0 left-0 h-full w-full bg-[#6b4c2d]/90 text-white flex items-center justify-center opacity-0 transition duration-300 group-hover:opacity-100 rounded-2xl">
+            <div className="absolute top-0 left-0 h-full w-full bg-[#bf6d45]/90 text-white flex items-center justify-center opacity-0 transition duration-300 group-hover:opacity-100 rounded-2xl">
               <p className="text-lg font-bold">Wander through Istanbul</p>
             </div>
           </a>
@@ -56,7 +56,7 @@ const Destination = () => {
                 src="/images/collageimg3.jpg"
                 alt="collageimg"
               />
-              <div className="absolute top-0 left-0 h-full w-full bg-[#6b4c2d]/90 text-white flex items-center justify-center opacity-0 transition duration-300 group-hover:opacity-100 rounded-2xl">
+              <div className="absolute top-0 left-0 h-full w-full bg-[#bf6d45]/90 text-white flex items-center justify-center opacity-0 transition duration-300 group-hover:opacity-100 rounded-2xl">
                 <p className="text-lg font-bold">Sands of Dubai</p>
               </div>
             </a>
@@ -70,7 +70,7 @@ const Destination = () => {
                 src="/images/collageimg4.jpg"
                 alt="collageimg"
               />
-              <div className="absolute top-0 left-0 h-full w-full bg-[#6b4c2d]/90 text-white flex items-center justify-center opacity-0 transition duration-300 group-hover:opacity-100 rounded-2xl">
+              <div className="absolute top-0 left-0 h-full w-full bg-[#bf6d45]/90 text-white flex items-center justify-center opacity-0 transition duration-300 group-hover:opacity-100 rounded-2xl">
                 <p className="text-lg font-bold">Chasing Sunsets in Greece</p>
               </div>
             </a>
@@ -84,12 +84,20 @@ const Destination = () => {
               src="/images/collageimg2.jpg"
               alt="collageimg"
             />
-            <div className="absolute top-0 left-0 h-full w-full bg-[#6b4c2d]/90 text-white flex items-center justify-center opacity-0 transition duration-300 group-hover:opacity-100 rounded-2xl">
+            <div className="absolute top-0 left-0 h-full w-full bg-[#bf6d45]/90 text-white flex items-center justify-center opacity-0 transition duration-300 group-hover:opacity-100 rounded-2xl">
               <p className="text-lg font-bold">Wander through Istanbul</p>
             </div>
           </a>
         </div>
       </section>
+      <div className=" text-center flex flex-col items-center p-[30px] font-Montserrat gap-3.5">
+        <h2>Wants to join Shizrae on her Next Tour?</h2>
+        <a href="https://calendly.com/lifeofshiz95/30min">
+          <button className=" bg-[#bf6d45] p-2 rounded-full px-2.5 text-[#f1ebdd] font-Montserrat hover:bg-[#63512f] transition-all duration-300">
+            Book a Call
+          </button>
+        </a>{" "}
+      </div>
     </div>
   );
 };

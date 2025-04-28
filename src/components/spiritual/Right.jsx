@@ -26,7 +26,7 @@ function Right() {
         return (
           <div
             key={index}
-            className="max-w-[509px] shadow-lg mb-[30px] bg-white text-[#695f4d] border border-[#6b4c2d]/50 rounded-[15px] cursor-pointer"
+            className="max-w-[509px] shadow-lg mb-[30px] bg-white text-[#695f4d] border border-[#bf6d45]/50 rounded-[15px] cursor-pointer"
           >
             <img
               className="rounded-tl-[15px] rounded-tr-[15px] h-[300px] w-full object-cover object-center"
