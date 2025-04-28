@@ -3,8 +3,6 @@ import {
   PiInstagramLogo,
   PiPinterestLogoBold,
   PiYoutubeLogo,
-  PiTwitterLogo,
-  PiFacebookLogo,
   PiLinkedinLogo,
   PiAmazonLogo,
 } from "react-icons/pi";
