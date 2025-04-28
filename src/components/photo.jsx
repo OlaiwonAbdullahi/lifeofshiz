@@ -40,7 +40,7 @@ export default function Photo() {
   };
 
   return (
-    <section className="w-10/12 mx-auto p-5 bg-[#f1ebdd]">
+    <section className="md:w-10/12 w-full  mx-auto p-5 bg-[#f1ebdd]">
       <Slider {...settings}>
         <div>
           <img

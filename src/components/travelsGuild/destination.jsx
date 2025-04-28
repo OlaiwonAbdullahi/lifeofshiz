@@ -7,7 +7,7 @@ const Destination = () => {
         <h2 className="text-3xl font-bold text-left flex justify-start text-[#bf6d45] items-center gap-2 font-Rumble">
           Destination Diaries 📙
         </h2>
-        <p className="border-l-2 p-3 text-sm font-Rumble leading-[1.1]">
+        <p className="border-l-2 p-3 text-basefont-Rumble leading-[1.1]">
           Exploring the World, One Story at a Time
         </p>
       </div>
@@ -91,7 +91,7 @@ const Destination = () => {
         </div>
       </section>
       <div className=" text-center flex flex-col items-center p-[30px] font-Rumble gap-3.5">
-        <h2>Wants to join Shizrae on her Next Tour?</h2>
+        <h2>Want to join Shizrae on her Next Tour?</h2>
         <a href="https://calendly.com/lifeofshiz95/30min">
           <button className=" bg-[#bf6d45] p-2 rounded-full px-2.5 text-[#f1ebdd] font-Rumble hover:bg-[#63512f] transition-all duration-300">
             Book a Call

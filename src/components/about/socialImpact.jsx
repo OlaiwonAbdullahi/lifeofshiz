@@ -64,7 +64,7 @@ const SocialImpact = () => {
         <h2 className="text-2xl md:text-3xl font-bold text-[#bf6d45] mb-6 font-Rumble">
           Our Social Impact
         </h2>
-        <p className="border-l-2 p-3 mb-3.5  text-sm  font-Rumble leading-[1.1]">
+        <p className="border-l-2 p-3 mb-3.5  text-base font-Rumble leading-[1.1]">
           Empowering Through Action
         </p>
       </div>
@@ -78,7 +78,7 @@ const SocialImpact = () => {
             <h3 className="text-lg font-semibold text-[#bf6d45]">
               {item.title}
             </h3>
-            <p className="text-sm text-gray-700">{item.description}</p>
+            <p className="text-basetext-gray-700">{item.description}</p>
           </div>
         ))}
       </div>

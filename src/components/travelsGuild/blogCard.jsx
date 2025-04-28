@@ -13,10 +13,10 @@ const BlogCard = () => {
           <h2 className="text-2xl font-bold text-[#bf6d45] mb-3 font-Rumble">
             Blog Title
           </h2>
-          <p className="text-sm text-gray-600 font-Rumble mb-4 leading-relaxed">
+          <p className="text-basetext-gray-600 font-Rumble mb-4 leading-relaxed">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, hic?
           </p>
-          <div className="flex justify-between items-center text-sm text-[#bf6d45] font-Rumble">
+          <div className="flex justify-between items-center text-basetext-[#bf6d45] font-Rumble">
             <p>
               <img
                 src="https://placehold.co/600x600"

@@ -60,7 +60,7 @@ const Timeline = () => {
       <h2 className="text-3xl font-bold text-left mb-3 flex justify-start text-[#bf6d45] items-center gap-2 font-Rumble">
         Brand Evolution Timeline 📅
       </h2>
-      <p className="border-l-2 p-3 mb-3.5  text-sm  font-Rumble leading-[1.1]">
+      <p className="border-l-2 p-3 mb-3.5  text-base font-Rumble leading-[1.1]">
         Milestones That Shaped My Brand
       </p>
 
@@ -86,7 +86,7 @@ const Timeline = () => {
                           <h3 className="text-xl font-semibold font-Rumble">
                             {item.title}
                           </h3>
-                          <p className="text-sm text-gray-500  font-Rumble">
+                          <p className="text-basetext-gray-500  font-Rumble">
                             {item.date}
                           </p>
                           <p className="text-gray-700 mt-2  font-Rumble">
@@ -111,7 +111,7 @@ const Timeline = () => {
                           <h3 className="text-xl font-semibold font-Rumble">
                             {item.title}
                           </h3>
-                          <p className="text-sm text-gray-500 font-Rumble">
+                          <p className="text-basetext-gray-500 font-Rumble">
                             {item.date}
                           </p>
                           <p className="text-gray-700 mt-2 font-Rumble">

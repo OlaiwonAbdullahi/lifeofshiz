@@ -11,12 +11,14 @@ const About = () => {
   return (
     <div className="bg-[#f1ebdd]">
       <AboutHero />
-      <Journey />
-      <FunFacts />
-      <Vision />
-      <Timeline />
-      <SocialImpact />
-      <Gallery />
+      <div className=" px-5">
+        <Journey />
+        <FunFacts />
+        <Vision />
+        <Timeline />
+        <SocialImpact />
+        <Gallery />
+      </div>
     </div>
   );
 };

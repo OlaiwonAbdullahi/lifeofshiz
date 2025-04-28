@@ -5,7 +5,7 @@ function Gallery() {
         <h2 className="text-3xl font-bold text-left  flex justify-start text-[#bf6d45] items-center gap-2 font-Rumble">
           My Moments in Frames📸
         </h2>
-        <p className="border-l-2 p-3  text-sm  font-Rumble leading-[1.1]">
+        <p className="border-l-2 p-3  text-base font-Rumble leading-[1.1]">
           A glimpse into my world through my lens
         </p>
       </div>

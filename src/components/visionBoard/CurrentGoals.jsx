@@ -9,7 +9,7 @@ const CurrentGoals = () => {
             <h1 className="text-4xl font-semibold font-Rumble  text-[#bf6d45] ">
               My Vision
             </h1>
-            <p className="border-l-2 p-3  text-sm  font-Rumble leading-[1.1]">
+            <p className="border-l-2 p-3  text-base font-Rumble leading-[1.1]">
               A Journey of Self-Discovery and Growth
             </p>
             <p className="text-lg font-Rumble">

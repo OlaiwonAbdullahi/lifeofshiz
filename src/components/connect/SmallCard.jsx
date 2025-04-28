@@ -1,19 +1,43 @@
 import React from "react";
 import {
-  PiFacebookLogo,
+  PiAmazonLogo,
   PiInstagramLogo,
+  PiLinkedinLogo,
   PiPinterestLogoBold,
   PiTiktokLogoLight,
-  PiTwitterLogo,
   PiYoutubeLogo,
 } from "react-icons/pi";
 const socialLinks = [
-  { icon: <PiTiktokLogoLight className="w-6 h-6" />, label: "Tiktok" },
-  { icon: <PiInstagramLogo className="w-6 h-6" />, label: "Instagram" },
-  { icon: <PiPinterestLogoBold className="w-6 h-6" />, label: "Pinterest" },
-  { icon: <PiYoutubeLogo className="w-6 h-6" />, label: "YouTube" },
-  { icon: <PiTwitterLogo className="w-6 h-6" />, label: "Twitter" },
-  { icon: <PiFacebookLogo className="w-6 h-6" />, label: "Facebook" },
+  {
+    icon: <PiTiktokLogoLight className="w-6 h-6" />,
+    label: "Tiktok",
+    link: "https://www.tiktok.com/@shizraeiqbal",
+  },
+  {
+    icon: <PiInstagramLogo className="w-6 h-6" />,
+    label: "Instagram",
+    link: "https://www.instagram.com/shizraeiqbal",
+  },
+  {
+    icon: <PiPinterestLogoBold className="w-6 h-6" />,
+    label: "Pinterest",
+    link: "https://tr.ee/fn_Qg16C3G",
+  },
+  {
+    icon: <PiYoutubeLogo className="w-6 h-6" />,
+    label: "YouTube",
+    link: "http://youtube.com/@lifeofshiz",
+  },
+  {
+    icon: <PiAmazonLogo className="w-6 h-6" />,
+    label: "Twitter",
+    link: "https://r.amzlink.to/?btn_url=https%3A%2F%2Fwww.amazon.com%2Fshop%2Fshizraeiqbal&btn_ref=org-433bb393e1b8b503",
+  },
+  {
+    icon: <PiLinkedinLogo className="w-6 h-6" />,
+    label: "Facebook",
+    link: "https://www.linkedin.com/in/shizraeiqbal/",
+  },
 ];
 
 function SmallCard() {
@@ -27,7 +51,7 @@ function SmallCard() {
               className="w-1/2 flex items-center gap-2 cursor-pointer"
             >
               {item.icon}
-              <span className="font-Rumble text-sm text-[#333]">Shizrae</span>
+              <span className="font-Rumble text-basetext-[#333]">Shizrae</span>
             </div>
           ))}
         </div>
