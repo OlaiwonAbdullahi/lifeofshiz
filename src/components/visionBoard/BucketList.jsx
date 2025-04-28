@@ -9,10 +9,10 @@ const bucketList = [
 function BucketList() {
   return (
     <section className="bg-[#f1ebdd] p-[30px] text-[#bf6d45]">
-      <h2 className="text-3xl font-bold text-left mb-3 flex justify-start text-[#bf6d45] items-center gap-2 font-ubuntu">
+      <h2 className="text-3xl font-bold text-left mb-3 flex justify-start text-[#bf6d45] items-center gap-2 font-Rumble">
         Shizrae's Bucket List 🌍
       </h2>
-      <p className="border-l-2 p-3 mb-3.5  text-sm  font-Montserrat leading-[1.1]">
+      <p className="border-l-2 p-3 mb-3.5  text-sm  font-Rumble leading-[1.1]">
         CheckOut my BucketList
       </p>
       <div className="bucketListgrid">

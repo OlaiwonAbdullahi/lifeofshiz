@@ -5,13 +5,13 @@ const Journey = () => {
     <div>
       <div className="  bg-[#f1ebdd] flex p-2.5 md:p-5 gap-5 flex-col md:flex-row justify-center items-center">
         <div className="flex flex-col gap-5 md:w-1/2 w-full">
-          <h1 className="text-4xl font-semibold font-ubuntu  text-[#bf6d45] ">
+          <h1 className="text-4xl font-semibold font-Rumble  text-[#bf6d45] ">
             My Journey🚀
           </h1>
-          <p className="border-l-2 p-3  text-sm  font-Montserrat leading-[1.1]">
+          <p className="border-l-2 p-3  text-sm  font-Rumble leading-[1.1]">
             The Road That Shaped Me
           </p>
-          <p className="text-base font-Montserrat">
+          <p className="text-base font-Rumble">
             A Harvard MBA with nearly a decade of technical leadership in the
             Oil & Gas industry, I bring a distinctive blend of strategic
             expertise and creative vision to every endeavor. As co-owner of

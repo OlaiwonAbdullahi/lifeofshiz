@@ -23,7 +23,7 @@ function Nav() {
       </Link>
 
       {/* Desktop Menu */}
-      <div className="hidden md:flex items-center justify-center flex-1 font-Montserrat">
+      <div className="hidden md:flex items-center justify-center flex-1 font-Rumble">
         <ul className="flex gap-6">
           {navItems.map((item) => (
             <li key={item.label}>

@@ -10,6 +10,7 @@ import Travels from "./pages/travels";
 
 import VisionBoard from "./pages/VisionBoard";
 import Spiritual from "./pages/Spiritual";
+import "./fonts/RumbleBrave.otf";
 
 const App = () => {
   return (
