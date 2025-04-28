@@ -25,7 +25,7 @@ function Intro() {
           everyday and embrace the art of living well.
         </p>
         <button className="mt-[20px] bg-[#bf6d45] flex items-center  text-[#f1ebdd] px-[20px] py-[10px] rounded-full font-Rumble hover:bg-[#695f4d] transition-all duration-300">
-          <a href="#" className="text-sm   flex items-center font-Rumble">
+          <a href="#" className="text-base  flex items-center font-Rumble">
             More About Shizrae <MdOutlineKeyboardDoubleArrowRight />
           </a>
         </button>

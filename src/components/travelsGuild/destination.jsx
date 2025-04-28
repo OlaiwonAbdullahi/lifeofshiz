@@ -7,7 +7,7 @@ const Destination = () => {
         <h2 className="text-3xl font-bold text-left flex justify-start text-[#bf6d45] items-center gap-2 font-Rumble">
           Destination Diaries 📙
         </h2>
-        <p className="border-l-2 p-3 text-sm font-Rumble leading-[1.1]">
+        <p className="border-l-2 p-3 text-basefont-Rumble leading-[1.1]">
           Exploring the World, One Story at a Time
         </p>
       </div>

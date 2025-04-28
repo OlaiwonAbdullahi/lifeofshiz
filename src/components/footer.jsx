@@ -5,6 +5,8 @@ import {
   PiYoutubeLogo,
   PiTwitterLogo,
   PiFacebookLogo,
+  PiLinkedinLogo,
+  PiAmazonLogo,
 } from "react-icons/pi";
 import logo from "../assets/lifeofshiz.png";
 
@@ -18,26 +20,38 @@ function Footer() {
           </h1>
           <div className="flex flex-row mt-[10px]">
             <ul className="mr-[80px] mb-[10px] md:mb-0">
-              <li className="cursor-pointer">
-                <PiTiktokLogoLight className="w-[30px] h-[30px]" />
-              </li>
-              <li className="cursor-pointer">
-                <PiInstagramLogo className="w-[30px] h-[30px]" />
-              </li>
-              <li className="cursor-pointer">
-                <PiPinterestLogoBold className="w-[30px] h-[30px]" />
-              </li>
+              <a href="https://www.tiktok.com/@shizraeiqbal">
+                <li className="cursor-pointer">
+                  <PiTiktokLogoLight className="w-[30px] h-[30px]" />
+                </li>
+              </a>
+              <a href="https://www.instagram.com/shizraeiqbal">
+                <li className="cursor-pointer">
+                  <PiInstagramLogo className="w-[30px] h-[30px]" />
+                </li>
+              </a>
+              <a href="https://tr.ee/fn_Qg16C3G">
+                <li className="cursor-pointer">
+                  <PiPinterestLogoBold className="w-[30px] h-[30px]" />
+                </li>
+              </a>
             </ul>
             <ul>
-              <li className="cursor-pointer">
-                <PiYoutubeLogo className="w-[30px] h-[30px]" />
-              </li>
-              <li className="cursor-pointer">
-                <PiTwitterLogo className="w-[30px] h-[30px]" />
-              </li>
-              <li className="cursor-pointer">
-                <PiFacebookLogo className="w-[30px] h-[30px]" />
-              </li>
+              <a href="http://youtube.com/@lifeofshiz">
+                <li className="cursor-pointer">
+                  <PiYoutubeLogo className="w-[30px] h-[30px]" />
+                </li>
+              </a>
+              <a href="https://r.amzlink.to/?btn_url=https%3A%2F%2Fwww.amazon.com%2Fshop%2Fshizraeiqbal&btn_ref=org-433bb393e1b8b503">
+                <li className="cursor-pointer">
+                  <PiAmazonLogo className="w-[30px] h-[30px]" />
+                </li>
+              </a>
+              <a href="https://www.linkedin.com/in/shizraeiqbal/">
+                <li className="cursor-pointer">
+                  <PiLinkedinLogo className="w-[30px] h-[30px]" />
+                </li>
+              </a>
             </ul>
           </div>
         </div>

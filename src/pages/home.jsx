@@ -7,8 +7,10 @@ const Home = () => {
   return (
     <div className=" bg-[#f1ebdd]">
       <Hero />
-      <Intro />
-      <Photo />
+      <div className=" px-5">
+        <Intro />
+        <Photo />
+      </div>
     </div>
   );
 };

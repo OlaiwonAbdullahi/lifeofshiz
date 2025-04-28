@@ -27,7 +27,7 @@ function SmallCard() {
               className="w-1/2 flex items-center gap-2 cursor-pointer"
             >
               {item.icon}
-              <span className="font-Rumble text-sm text-[#333]">Shizrae</span>
+              <span className="font-Rumble text-basetext-[#333]">Shizrae</span>
             </div>
           ))}
         </div>

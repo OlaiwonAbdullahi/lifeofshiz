@@ -11,6 +11,7 @@ import Travels from "./pages/travels";
 import VisionBoard from "./pages/VisionBoard";
 import Spiritual from "./pages/Spiritual";
 import "./fonts/RumbleBrave.otf";
+import Career from "./pages/career";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
           <Route path="/contact" element={<Connect />} />
 
           <Route path="/travel" element={<Travels />} />
+          <Route path="/career" element={<Career />} />
 
           <Route path="/vision" element={<VisionBoard />} />
           <Route path="/spiritual" element={<Spiritual />} />
