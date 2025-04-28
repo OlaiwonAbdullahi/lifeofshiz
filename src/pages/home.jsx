@@ -5,7 +5,7 @@ import Photo from "../components/photo";
 
 const Home = () => {
   return (
-    <div>
+    <div className=" bg-[#f1ebdd]">
       <Hero />
       <Intro />
       <Photo />

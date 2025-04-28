@@ -1,7 +1,7 @@
 const BlogCard = () => {
   return (
     <div className="w-full max-w-md mx-auto mb-6">
-      <div className="border border-[#6b4c2d]/50 rounded-xl shadow-xl bg-white overflow-hidden">
+      <div className="border border-[#bf6d45]/50 rounded-xl shadow-xl bg-white overflow-hidden">
         <div className="relative">
           <img
             src="https://placehold.co/600x400"
@@ -10,13 +10,13 @@ const BlogCard = () => {
           />
         </div>
         <div className="p-4">
-          <h2 className="text-2xl font-bold text-[#6b4c2d] mb-3 font-ubuntu">
+          <h2 className="text-2xl font-bold text-[#bf6d45] mb-3 font-ubuntu">
             Blog Title
           </h2>
           <p className="text-sm text-gray-600 font-Montserrat mb-4 leading-relaxed">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, hic?
           </p>
-          <div className="flex justify-between items-center text-sm text-[#6b4c2d] font-Montserrat">
+          <div className="flex justify-between items-center text-sm text-[#bf6d45] font-Montserrat">
             <p>
               <img
                 src="https://placehold.co/600x600"

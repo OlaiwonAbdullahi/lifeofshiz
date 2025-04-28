@@ -9,7 +9,7 @@ import SocialImpact from "../components/about/socialImpact";
 
 const About = () => {
   return (
-    <div className="bg-[#e3dcdc]">
+    <div className="bg-[#f1ebdd]">
       <AboutHero />
       <Journey />
       <FunFacts />

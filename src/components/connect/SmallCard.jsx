@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import {
   PiFacebookLogo,
   PiInstagramLogo,
@@ -7,8 +7,6 @@ import {
   PiTwitterLogo,
   PiYoutubeLogo,
 } from "react-icons/pi";
-import AdviceBookings from "./adviceBookings"; // Capitalized import name for consistency
-
 const socialLinks = [
   { icon: <PiTiktokLogoLight className="w-6 h-6" />, label: "Tiktok" },
   { icon: <PiInstagramLogo className="w-6 h-6" />, label: "Instagram" },
@@ -18,9 +16,7 @@ const socialLinks = [
   { icon: <PiFacebookLogo className="w-6 h-6" />, label: "Facebook" },
 ];
 
-function SmallCard({switchForm, setSwitchForm}) {
-  const [openAdviceBooking, setOpenAdviceBooking] = useState(false);
-
+function SmallCard() {
   return (
     <div className="hidden absolute left-[5%] bottom-5 w-[90%] sm:w-[70%] md:w-[40%] h-[70%] p-6 md:flex flex-col items-center justify-start">
       <div className="w-full">
@@ -39,13 +35,16 @@ function SmallCard({switchForm, setSwitchForm}) {
         </div>
       </div>
       <button
-        className="mt-6 flex items-center gap-2.5 cursor-pointer bg-[#6b4c2d] text-[#e3dcdc] px-6 py-3 rounded-md font-Montserrat hover:bg-[#695f4d] transition-all duration-300"
-       onClick={()=>{setSwitchForm(!switchForm)}}
-        /*onClick={() => setOpenAdviceBooking(!openAdviceBooking)}*/
+        className="mt-6 flex items-center gap-2.5 cursor-pointer bg-[#bf6d45] text-[#f1ebdd] px-6 py-3 rounded-md font-Montserrat hover:bg-[#695f4d] transition-all duration-300"
+        onClick={() => {
+          window.open(
+            "https://calendly.com/lifeofshiz95/academic-consult",
+            "_blank"
+          );
+        }}
       >
-        {switchForm?"Work with me":"Get Advice"}
+        Get Advice
       </button>
-      {openAdviceBooking && <AdviceBookings />}
     </div>
   );
 }
