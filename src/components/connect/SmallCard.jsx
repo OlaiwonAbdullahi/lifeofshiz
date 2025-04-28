@@ -27,15 +27,13 @@ function SmallCard() {
               className="w-1/2 flex items-center gap-2 cursor-pointer"
             >
               {item.icon}
-              <span className="font-Montserrat text-sm text-[#333]">
-                Shizrae
-              </span>
+              <span className="font-Rumble text-sm text-[#333]">Shizrae</span>
             </div>
           ))}
         </div>
       </div>
       <button
-        className="mt-6 flex items-center gap-2.5 cursor-pointer bg-[#bf6d45] text-[#f1ebdd] px-6 py-3 rounded-md font-Montserrat hover:bg-[#695f4d] transition-all duration-300"
+        className="mt-6 flex items-center gap-2.5 cursor-pointer bg-[#bf6d45] text-[#f1ebdd] px-6 py-3 rounded-md font-Rumble hover:bg-[#695f4d] transition-all duration-300"
         onClick={() => {
           window.open(
             "https://calendly.com/lifeofshiz95/academic-consult",

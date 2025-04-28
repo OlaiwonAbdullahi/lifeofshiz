@@ -27,10 +27,10 @@ const products = [
 const AmazonShop = () => {
   return (
     <div className=" p-4">
-      <h2 className="text-3xl font-bold text-left mb-3 flex justify-start text-[#bf6d45] items-center gap-2 font-ubuntu">
+      <h2 className="text-3xl font-bold text-left mb-3 flex justify-start text-[#bf6d45] items-center gap-2 font-Rumble">
         My Amazon Picks 🛍️
       </h2>
-      <p className="border-l-2 p-3 mb-3.5  text-sm  font-Montserrat leading-[1.1]">
+      <p className="border-l-2 p-3 mb-3.5  text-sm  font-Rumble leading-[1.1]">
         Shop my favorite products directly from Amazon!
       </p>
       <section className="bg-white pb-16 px-6 md:px-20">
@@ -47,17 +47,17 @@ const AmazonShop = () => {
                   className="object-cover rounded-xl w-full h-64"
                 />
               </div>
-              <h3 className="text-2xl font-ubuntu font-semibold text-[#bf6d45]">
+              <h3 className="text-2xl font-Rumble font-semibold text-[#bf6d45]">
                 {product.name}
               </h3>
-              <p className="text-gray-500 font-Montserrat mb-2">
+              <p className="text-gray-500 font-Rumble mb-2">
                 {product.description}
               </p>
               <a
                 href={product.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block mt-2 px-4 py-2 bg-[#bf6d45]  font-Montserrat text-white font-medium rounded-xl hover:bg-yellow-600 transition"
+                className="inline-block mt-2 px-4 py-2 bg-[#bf6d45]  font-Rumble text-white font-medium rounded-xl hover:bg-yellow-600 transition"
               >
                 Shop on Amazon
               </a>

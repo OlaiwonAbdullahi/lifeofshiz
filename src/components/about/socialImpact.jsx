@@ -61,10 +61,10 @@ const SocialImpact = () => {
   return (
     <div className="py-10 px-4 md:px-10">
       <div className=" p-3">
-        <h2 className="text-2xl md:text-3xl font-bold text-[#bf6d45] mb-6 font-ubuntu">
+        <h2 className="text-2xl md:text-3xl font-bold text-[#bf6d45] mb-6 font-Rumble">
           Our Social Impact
         </h2>
-        <p className="border-l-2 p-3 mb-3.5  text-sm  font-Montserrat leading-[1.1]">
+        <p className="border-l-2 p-3 mb-3.5  text-sm  font-Rumble leading-[1.1]">
           Empowering Through Action
         </p>
       </div>
@@ -72,7 +72,7 @@ const SocialImpact = () => {
         {impactData.map((item, index) => (
           <div
             key={index}
-            className="bg-white rounded-2xl p-4 border border-[#f1ebdd] font-Montserrat flex flex-col gap-2 shadow-sm hover:shadow-md transition"
+            className="bg-white rounded-2xl p-4 border border-[#f1ebdd] font-Rumble flex flex-col gap-2 shadow-sm hover:shadow-md transition"
           >
             {item.icon}
             <h3 className="text-lg font-semibold text-[#bf6d45]">
