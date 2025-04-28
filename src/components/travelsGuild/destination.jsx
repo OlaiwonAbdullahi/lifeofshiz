@@ -91,7 +91,7 @@ const Destination = () => {
         </div>
       </section>
       <div className=" text-center flex flex-col items-center p-[30px] font-Rumble gap-3.5">
-        <h2>Wants to join Shizrae on her Next Tour?</h2>
+        <h2>Want to join Shizrae on her Next Tour?</h2>
         <a href="https://calendly.com/lifeofshiz95/30min">
           <button className=" bg-[#bf6d45] p-2 rounded-full px-2.5 text-[#f1ebdd] font-Rumble hover:bg-[#63512f] transition-all duration-300">
             Book a Call
