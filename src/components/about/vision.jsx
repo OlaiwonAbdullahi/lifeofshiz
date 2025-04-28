@@ -11,7 +11,7 @@ const Vision = () => {
           <p className="border-l-2 p-3  text-sm  font-Rumble leading-[1.1]">
             A Journey of Self-Discovery and Growth
           </p>
-          <p className="text-base font-Rumble">
+          <p className="text-lg font-Rumble">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
             voluptatibus, cumque, nobis, nihil eveniet libero doloremque
             distinctio sequi voluptates sint ratione reprehenderit. Quisquam

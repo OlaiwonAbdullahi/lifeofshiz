@@ -11,7 +11,7 @@ const Journey = () => {
           <p className="border-l-2 p-3  text-sm  font-Rumble leading-[1.1]">
             The Road That Shaped Me
           </p>
-          <p className="text-base font-Rumble">
+          <p className="text-lg font-Rumble">
             A Harvard MBA with nearly a decade of technical leadership in the
             Oil & Gas industry, I bring a distinctive blend of strategic
             expertise and creative vision to every endeavor. As co-owner of

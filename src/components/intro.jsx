@@ -6,7 +6,7 @@ function Intro() {
         <h2 className="text-3xl font-bold text-left flex justify-start text-[#bf6d45] items-center gap-2 font-Rumble">
           Who is Shizrae?
         </h2>
-        <p className="border-l-2 p-3 text-base font-Rumble leading-[1.1]">
+        <p className="border-l-2 p-3 text-lg font-Rumble leading-[1.1]">
           Engineer |MBA|TRAVELS|CONTENT CREATOR
         </p>
       </div>
