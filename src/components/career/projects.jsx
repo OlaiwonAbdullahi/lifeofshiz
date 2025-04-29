@@ -50,7 +50,7 @@ const ProjectsWorkedOn = () => {
                 {project.tech.map((tag, index) => (
                   <span
                     key={index}
-                    className="bg-gray-100 text-gray-700 text-sm px-2 py-1 rounded-full"
+                    className="bg-[#bf6d45]/25 text-gray-700 text-sm px-2 py-1 rounded-full"
                   >
                     {tag}
                   </span>
